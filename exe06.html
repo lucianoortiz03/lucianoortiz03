@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center>
+    <title>Cadastro de Pessoas</title>
+</head>
+<body>
+    <h3>Cadastro de Pessoas</h3>
+    <form action="" method="post">
+        Nome <input type="name" placeholder="Nome" required>
+        E-mail<input type="email" placeholder="E-mail" required><br>
+        Telefone<input type="tel" placeholder="Telefone" required>
+        Data de Nascimento<input type="datetime-local" placeholder="Data de Nascimento" required>
+    </form>
+    <h5>Categoria:
+        <input type="radio" name="tipo">Estudante 
+        <input type="radio" name="tipo">Professor
+        <input type="radio" name="tipo">Funcionário
+    </h5>
+    <h5>Possui interesse em:   
+        <input type="checkbox">Mecânica 
+        <input type="checkbox">T.I
+        <input type="checkbox">Elétrica
+    </h5><br>
+    <h5>Quantos cursos fez na escola? Números<input type="number" min="0" min="20"><br>
+    </h5>
+    <h5>Selecione a unidade desejada: <select>
+        <option>Sorocaba - Sta Rosária</option>
+        <option>São Paulo - Alto da Lapa</option>
+        <option>Ilha Bela</option>
+        <option>Porto de Galinhas</option>
+    </select></h5>
+        <h5>Insira sua foto:
+        Arquivo<input type="file">
+        Imagem<input type="image"><br>
+        <input type="reset" value="Limpar">
+        <button type="submit">Enviar</button>
+    </h5>    
+    </form>
+</center>    
+</body>
+</html>
